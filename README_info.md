@@ -19,6 +19,6 @@
 </div>
 <div id="post-073118c">
 	<h2>Post 073118c: XOSPL preview releasing in the next few minutes!</h2>
-	<p>I finished the XOSPL preview much ahead of schedule. it will be located in the xospl folder, as pre-0.0a-073118.xml. The full version should be coming in the next days.</p>
+	<p>I finished the XOSPL preview much ahead of schedule. it will be located in the xospl folder, as xospl-pre-0.0a-073118.xml. The full version should be coming in the next days.</p>
 	<p>-brok</p>
 </div>
