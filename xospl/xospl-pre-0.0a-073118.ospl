@@ -1,0 +1,12 @@
+#import ioutils.cls namespace="ioutils";
+
+mainMethod:
+    def string input = ioutils::term.getInput();
+    if input == "helloworld":
+        ioutils::term.echo("Hello World!");
+        return 0;
+    __else:
+        ioutils::term.echo("ERROR 1: Value "+input+" not recognized.");
+        return 1;
+    __
+__
