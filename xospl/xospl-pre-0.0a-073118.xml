@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xospl:example>
+    <imports:imports>
+        <imports:import namespace="ioutils">ioutils.cls</imports:import>
+    </imports:imports>
+    <methods:mainMethod>
+        <values:define type="values:typeString" name="input"><ioutils:getString src="ioutils::term.getInput()"/></values:define>
+        <conditionals:if>
+            <conditionals:condition condition="input=='helloworld'">
+                <ioutils:term.echo><values:typeString>"Hello World!"</values:typeString></ioutils:echo>
+                <methods:returnInt><values:typeInt>0</values:typeInt></methods:returnInt>
+            </conditionals:condition>
+            <conditionals:else>
+                <ioutils:term.echo><values:typeErrorString>"ERROR 1: Value "
+<values:conacterate/><values:typeString>input</values:typeString><values:conacterate/><values:typeString>" not recognized."</values:typeString></ioutils:term.echo>
+            </conditionals:else>
+        </conditionals:if>
+    </methods:mainMethod>
+</xospl:example>
