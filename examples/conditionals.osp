@@ -1,0 +1,19 @@
+/*CONDITIONALS EXAMPLE FILE
+This file details the conditionals/loops implemented in OSPL.
+*/
+//Setup for tutorial, ignore
+#import technology.omni-system.ospl.typePlaceholders.booleanPlaceholder namespace @override boolean;
+#import technology.omni-system.ospl.ioutils namespace io;
+#compile cpp using technology.omni-system.osplCompiler.cppCompiler;
+#ignore("//\n","/*" "*/", "[", "]");
+&public class conditionals {
+method conditionalsTutorial:
+//single line if statement:
+if [boolean] then io:term.echo("Single line if statement returned true");
+//checks the state of the boolean and executes line after "then" if true
+//single line if statement shorthand:
+[boolean] > io:term.echo("Single line if statement returned true");
+//does same thing as normal if statement
+//single line if-else statement:
+if [boolean] then io:term.echo("Single line if statement returned true") else io:term.echo("Single line if statement returned false");
+//if boolean is true executes statement between then and else, if false executes statement after else
