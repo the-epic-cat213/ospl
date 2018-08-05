@@ -17,3 +17,5 @@ if [boolean] then io:term.echo("Single line if statement returned true");
 //single line if-else statement:
 if [boolean] then io:term.echo("Single line if statement returned true") else io:term.echo("Single line if statement returned false");
 //if boolean is true executes statement between then and else, if false executes statement after else
+[boolean] > io:term.echo("Single line if statement returned true") !> io:term.echo("Single line if statement returned false);
+//does same thing as normal if-else statement
